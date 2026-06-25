@@ -1,0 +1,33 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+logs/
+*.log
+
+# PyCharm / IDE
+.idea/
+
+# Переменные окружения / секреты
+.env
+.env.*
+
+# Сборки/дистрибутивы (на будущее)
+build/
+dist/
+*.egg-info/
+
+# Selenium / chromedriver (если кладёте бинарь в проект)
+chromedriver
+*.exe
+
+# OS-специфичные файлы
+.DS_Store
+Thumbs.db
